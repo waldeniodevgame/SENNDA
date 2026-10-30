@@ -1,0 +1,602 @@
+[
+  {
+    "n": 1,
+    "q": "Qual ambiente concentra cadastros, estoque e relatórios?",
+    "options": [
+      "PDV de atendimento",
+      "Janela de pagamento",
+      "Retaguarda"
+    ],
+    "key": "C",
+    "why": "A retaguarda reúne a administração e as consultas da operação.",
+    "lesson": 1
+  },
+  {
+    "n": 2,
+    "q": "Após vender no PDV, onde conferir o registro integrado?",
+    "options": [
+      "Somente na lista de grupos",
+      "Na consulta de vendas da retaguarda",
+      "Somente no cadastro do operador"
+    ],
+    "key": "B",
+    "why": "A conferência administrativa permite comparar os registros da venda.",
+    "lesson": 1
+  },
+  {
+    "n": 3,
+    "q": "Antes de incluir um produto, qual ação evita duplicidade?",
+    "options": [
+      "Pesquisar o item existente",
+      "Criar outro código sem consultar",
+      "Alterar o saldo de um item semelhante"
+    ],
+    "key": "A",
+    "why": "A pesquisa deve anteceder a inclusão.",
+    "lesson": 2
+  },
+  {
+    "n": 4,
+    "q": "Depois de salvar o produto, qual conferência é adequada?",
+    "options": [
+      "Presumir que todos os dados estão corretos",
+      "Fazer uma venda sem conferir o cadastro",
+      "Localizar e reabrir para revisar descrição, unidade e preço"
+    ],
+    "key": "C",
+    "why": "Reabrir permite verificar os dados efetivamente gravados.",
+    "lesson": 2
+  },
+  {
+    "n": 5,
+    "q": "Um código fiscal do manual pode ser aplicado a qualquer produto?",
+    "options": [
+      "Sim, quando o preço for semelhante",
+      "Não; a configuração deve ser validada para produto e operação",
+      "Sim, se o sistema aceitar o código"
+    ],
+    "key": "B",
+    "why": "Os exemplos não definem a tributação de todos os clientes.",
+    "lesson": 3
+  },
+  {
+    "n": 6,
+    "q": "Há dúvida sobre NCM, CST/CSOSN ou CFOP. Como prosseguir?",
+    "options": [
+      "Registrar a pendência e validar com o responsável antes da operação",
+      "Copiar o código do primeiro produto da lista",
+      "Preencher qualquer valor para salvar"
+    ],
+    "key": "A",
+    "why": "A aula ensina a localizar campos, não substitui a definição fiscal validada.",
+    "lesson": 3
+  },
+  {
+    "n": 7,
+    "q": "Qual é a finalidade de grupos e subgrupos?",
+    "options": [
+      "Registrar o recebimento de uma venda",
+      "Substituir a quantidade do estoque",
+      "Organizar produtos por uma classificação consistente"
+    ],
+    "key": "C",
+    "why": "A classificação facilita localização e análise do catálogo.",
+    "lesson": 4
+  },
+  {
+    "n": 8,
+    "q": "A versão web exibe categoria e subcategoria. O que fazer?",
+    "options": [
+      "Excluir as categorias existentes",
+      "Conferir a organização da versão e evitar classificações duplicadas",
+      "Criar grupos repetidos para reproduzir a tela do manual"
+    ],
+    "key": "B",
+    "why": "Os nomes e a organização das telas variam entre versões.",
+    "lesson": 4
+  },
+  {
+    "n": 9,
+    "q": "O custo está por caixa e a venda por unidade. O que conferir?",
+    "options": [
+      "A unidade e a equivalência dos valores antes de comparar",
+      "Apenas a descrição comercial",
+      "Somente a cor da embalagem"
+    ],
+    "key": "A",
+    "why": "Valores de unidades diferentes não devem ser comparados diretamente.",
+    "lesson": 5
+  },
+  {
+    "n": 10,
+    "q": "Como evitar duplicar o saldo inicial?",
+    "options": [
+      "Informar o saldo e lançar outra entrada igual",
+      "Usar o estoque mínimo como saldo",
+      "Conferir a contagem e se a entrada já foi registrada"
+    ],
+    "key": "C",
+    "why": "O saldo inicial deve representar a quantidade de partida uma única vez.",
+    "lesson": 5
+  },
+  {
+    "n": 11,
+    "q": "Cadastrar o produto comprova que sua mercadoria entrou no estoque?",
+    "options": [
+      "Sim, se houver código de barras",
+      "Não; é preciso conferir o registro da entrada",
+      "Sim, o cadastro comprova a entrada física"
+    ],
+    "key": "B",
+    "why": "Cadastro e movimentação são etapas distintas.",
+    "lesson": 6
+  },
+  {
+    "n": 12,
+    "q": "Um documento salvo como rascunho deve ser tratado como entrada concluída?",
+    "options": [
+      "Não; conferir confirmação do documento e saldo",
+      "Sim, basta existir na lista",
+      "Sim, se tiver descrição preenchida"
+    ],
+    "key": "A",
+    "why": "A aula distingue rascunho de Salvar e confirmar.",
+    "lesson": 6
+  },
+  {
+    "n": 13,
+    "q": "Antes de usar Entrada XML, o que verificar?",
+    "options": [
+      "Apenas o nome do arquivo",
+      "Apenas a extensão XML",
+      "Fornecedor, documento e possibilidade de entrada já registrada"
+    ],
+    "key": "C",
+    "why": "Conferir a identidade da nota e a duplicidade evita lançamentos incorretos.",
+    "lesson": 7
+  },
+  {
+    "n": 14,
+    "q": "O recorte da aula 07 prova uma importação completa?",
+    "options": [
+      "Sim, porque o botão Entrada XML aparece",
+      "Não; a seleção e as etapas intermediárias precisam ser validadas na versão",
+      "Sim, porque mostra um documento existente"
+    ],
+    "key": "B",
+    "why": "A captura comprova a opção disponível, não a execução completa da importação.",
+    "lesson": 7
+  },
+  {
+    "n": 15,
+    "q": "Uma consulta não retorna movimentações. Qual primeira revisão?",
+    "options": [
+      "Período, loja e demais filtros",
+      "Alterar o estoque para zero",
+      "Cadastrar novamente todos os produtos"
+    ],
+    "key": "A",
+    "why": "Filtros podem ocultar registros existentes.",
+    "lesson": 8
+  },
+  {
+    "n": 16,
+    "q": "Há diferença de saldo. Qual conduta é adequada?",
+    "options": [
+      "Modificar o saldo sem investigar",
+      "Excluir o produto e cadastrá-lo novamente",
+      "Comparar cadastro, histórico e operação antes de ajustar"
+    ],
+    "key": "C",
+    "why": "A investigação deve identificar a origem da divergência.",
+    "lesson": 8
+  },
+  {
+    "n": 17,
+    "q": "Qual acesso utilizar na abertura do PDV?",
+    "options": [
+      "O acesso compartilhado de qualquer colega",
+      "O acesso autorizado para o próprio operador",
+      "A senha exibida no vídeo"
+    ],
+    "key": "B",
+    "why": "A identificação deve corresponder ao operador autorizado.",
+    "lesson": 9
+  },
+  {
+    "n": 18,
+    "q": "O fundo de troco informado na abertura corresponde a quê?",
+    "options": [
+      "Ao valor efetivamente disponível para iniciar o caixa",
+      "Ao faturamento previsto para o dia",
+      "Ao total da última venda"
+    ],
+    "key": "A",
+    "why": "O fundo de troco é referência para a conferência, não uma venda.",
+    "lesson": 9
+  },
+  {
+    "n": 19,
+    "q": "Antes de concluir uma venda, o que revisar nos itens?",
+    "options": [
+      "Somente o número de linhas",
+      "Somente o nome do cliente",
+      "Descrição, quantidade, unidade, preço e total"
+    ],
+    "key": "C",
+    "why": "A conferência deve abranger os dados que formam o valor da venda.",
+    "lesson": 10
+  },
+  {
+    "n": 20,
+    "q": "Um produto por peso foi lançado com quantidade incorreta. O que fazer?",
+    "options": [
+      "Ignorar porque o preço unitário está correto",
+      "Corrigir e conferir o total antes de concluir",
+      "Receber o total e corrigir o estoque depois"
+    ],
+    "key": "B",
+    "why": "A quantidade afeta o valor e deve ser conferida antes da conclusão.",
+    "lesson": 10
+  },
+  {
+    "n": 21,
+    "q": "Um único item foi lançado por engano. Qual operação procurar?",
+    "options": [
+      "A exclusão do item correto",
+      "O cancelamento de toda venda obrigatoriamente",
+      "A exclusão do cadastro do produto"
+    ],
+    "key": "A",
+    "why": "Excluir item e cancelar toda a venda são operações diferentes.",
+    "lesson": 11
+  },
+  {
+    "n": 22,
+    "q": "Depois de excluir um item, qual resultado conferir?",
+    "options": [
+      "Apenas o nome do operador",
+      "Apenas o preço no cadastro",
+      "A linha excluída e o total atualizado da venda"
+    ],
+    "key": "C",
+    "why": "A correção deve aparecer na composição e no valor da venda.",
+    "lesson": 11
+  },
+  {
+    "n": 23,
+    "q": "Uma venda de R$ 8 recebeu R$ 5 em dinheiro e R$ 3 em Pix. Quanto falta?",
+    "options": [
+      "R$ 5",
+      "R$ 0",
+      "R$ 3"
+    ],
+    "key": "B",
+    "why": "Os dois lançamentos somam o total de R$ 8.",
+    "lesson": 12
+  },
+  {
+    "n": 24,
+    "q": "Registrar Pix na janela de pagamento basta para comprovar recebimento?",
+    "options": [
+      "Não; conferir o recebimento pelo procedimento da empresa",
+      "Sim, qualquer seleção de Pix comprova crédito",
+      "Sim, se o cliente informar que pagou"
+    ],
+    "key": "A",
+    "why": "O registro da forma de pagamento deve corresponder ao recebimento real.",
+    "lesson": 12
+  },
+  {
+    "n": 25,
+    "q": "A mensagem de venda finalizada comprova, sozinha, a situação fiscal?",
+    "options": [
+      "Sim, todo documento fica automaticamente autorizado",
+      "Sim, DAV e documento fiscal são equivalentes",
+      "Não; consultar também a situação do documento correspondente"
+    ],
+    "key": "C",
+    "why": "Conclusão comercial e situação do documento precisam ser distinguidas.",
+    "lesson": 13
+  },
+  {
+    "n": 26,
+    "q": "Ao finalizar, qual conferência é necessária?",
+    "options": [
+      "Apenas o número de produtos cadastrados",
+      "Tipo e situação do documento gerado, além da venda",
+      "Apenas o fechamento da janela"
+    ],
+    "key": "B",
+    "why": "A operação deve ser conferida no documento correspondente.",
+    "lesson": 13
+  },
+  {
+    "n": 27,
+    "q": "Antes de cadastrar um cliente no PDV, qual ação é adequada?",
+    "options": [
+      "Pesquisar se o cliente já existe",
+      "Criar outro cadastro para cada compra",
+      "Usar o CPF de um cliente parecido"
+    ],
+    "key": "A",
+    "why": "A busca evita duplicidade e associação incorreta.",
+    "lesson": 14
+  },
+  {
+    "n": 28,
+    "q": "O sistema informa CPF já cadastrado. Como agir?",
+    "options": [
+      "Alterar um dígito para salvar",
+      "Usar um CPF fictício",
+      "Localizar e conferir o cadastro existente"
+    ],
+    "key": "C",
+    "why": "Não se deve contornar a validação com informação falsa.",
+    "lesson": 14
+  },
+  {
+    "n": 29,
+    "q": "O que comparar no fechamento de caixa?",
+    "options": [
+      "Somente o número de clientes",
+      "Valores contados e registros por forma de pagamento",
+      "Somente o saldo do estoque"
+    ],
+    "key": "B",
+    "why": "O fechamento exige conciliar os valores da operação.",
+    "lesson": 15
+  },
+  {
+    "n": 30,
+    "q": "Foi encontrada diferença no caixa. O que fazer?",
+    "options": [
+      "Registrar e investigar conforme o procedimento da empresa",
+      "Alterar os valores para forçar igualdade",
+      "Ignorar se a diferença for pequena"
+    ],
+    "key": "A",
+    "why": "A divergência deve ser tratada, sem maquiar a conferência.",
+    "lesson": 15
+  },
+  {
+    "n": 31,
+    "q": "Como localizar na retaguarda uma venda feita no PDV?",
+    "options": [
+      "Buscar apenas um produto com nome parecido",
+      "Considerar qualquer venda do dia como equivalente",
+      "Usar data e dados da operação e comparar itens e pagamentos"
+    ],
+    "key": "C",
+    "why": "A conferência exige identificar a mesma operação.",
+    "lesson": 16
+  },
+  {
+    "n": 32,
+    "q": "A venda não aparece na consulta. O que revisar primeiro?",
+    "options": [
+      "Alterar o preço do produto",
+      "Filtros e sincronização antes de repetir a venda",
+      "Refazer imediatamente a venda"
+    ],
+    "key": "B",
+    "why": "A ausência na consulta não comprova ausência da operação.",
+    "lesson": 16
+  },
+  {
+    "n": 33,
+    "q": "Como testar a baixa automática de estoque?",
+    "options": [
+      "Comparar o mesmo produto, loja e ciclo antes e depois da venda sincronizada",
+      "Comparar produtos diferentes em dias diferentes",
+      "Olhar apenas o preço da venda"
+    ],
+    "key": "A",
+    "why": "O teste precisa de uma comparação controlada do mesmo ciclo.",
+    "lesson": 17
+  },
+  {
+    "n": 34,
+    "q": "A baixa parece incorreta. Qual sequência é adequada?",
+    "options": [
+      "Lançar uma saída manual sem investigar",
+      "Excluir o produto",
+      "Conferir venda, sincronização e histórico antes de ajustar saldo"
+    ],
+    "key": "C",
+    "why": "Ajustar antes de entender o problema pode duplicar efeitos.",
+    "lesson": 17
+  },
+  {
+    "n": 35,
+    "q": "Ao criar uma conta a receber, o que revisar?",
+    "options": [
+      "Apenas o estoque mínimo",
+      "Cliente, valor, vencimento e parcelamento",
+      "Apenas a descrição do produto"
+    ],
+    "key": "B",
+    "why": "Os dados do título definem a cobrança registrada.",
+    "lesson": 18
+  },
+  {
+    "n": 36,
+    "q": "Após gerar parcelas, o que verificar?",
+    "options": [
+      "Quantidade, valores, vencimentos e total das parcelas",
+      "Apenas a primeira parcela",
+      "Somente o nome do operador"
+    ],
+    "key": "A",
+    "why": "O parcelamento precisa corresponder ao acordo registrado.",
+    "lesson": 18
+  },
+  {
+    "n": 37,
+    "q": "Antes de baixar um título, qual conferência é essencial?",
+    "options": [
+      "Apenas o número de itens no estoque",
+      "Somente a posição da linha",
+      "Cliente, título, valor recebido e forma de recebimento"
+    ],
+    "key": "C",
+    "why": "A baixa deve corresponder ao título e ao recebimento corretos.",
+    "lesson": 19
+  },
+  {
+    "n": 38,
+    "q": "Depois da baixa, qual resultado revisar?",
+    "options": [
+      "Somente o cadastro de grupos",
+      "Situação do título e recibo, quando emitido",
+      "Somente o dashboard de produtos"
+    ],
+    "key": "B",
+    "why": "A conferência verifica o registro financeiro e seu comprovante.",
+    "lesson": 19
+  },
+  {
+    "n": 39,
+    "q": "Dois painéis usam períodos diferentes. Podem ser comparados diretamente?",
+    "options": [
+      "Não sem considerar a diferença de critérios",
+      "Sim, porque pertencem ao mesmo sistema",
+      "Sim, se tiverem gráficos da mesma cor"
+    ],
+    "key": "A",
+    "why": "Período e filtros afetam os indicadores apresentados.",
+    "lesson": 20
+  },
+  {
+    "n": 40,
+    "q": "Um indicador do dashboard parece inconsistente. O que investigar?",
+    "options": [
+      "Mudar o período até obter o valor desejado",
+      "Ignorar os registros de origem",
+      "Vendas, custos e cadastros que alimentam o painel"
+    ],
+    "key": "C",
+    "why": "Os indicadores dependem da qualidade dos registros de origem.",
+    "lesson": 20
+  },
+  {
+    "n": 41,
+    "q": "Giro de estoque e Curva ABC respondem à mesma pergunta?",
+    "options": [
+      "Sim, são nomes diferentes para o mesmo número",
+      "Não; movimentação e relevância de faturamento são análises diferentes",
+      "Sim, ambos representam apenas o saldo"
+    ],
+    "key": "B",
+    "why": "A aula distingue circulação do produto e relevância no faturamento.",
+    "lesson": 21
+  },
+  {
+    "n": 42,
+    "q": "Qual relatório de resultado é mostrado no exemplo da aula 21?",
+    "options": [
+      "Giro de estoque",
+      "Curva ABC completa",
+      "Fechamento de caixa"
+    ],
+    "key": "A",
+    "why": "A Curva ABC aparece no menu; o resultado exemplificado é Giro.",
+    "lesson": 21
+  },
+  {
+    "n": 43,
+    "q": "O relatório Produtos sem movimento aparece sem linhas. O que concluir?",
+    "options": [
+      "A empresa não possui mercadorias",
+      "Todos os produtos precisam ser excluídos",
+      "É necessário considerar os filtros antes de interpretar"
+    ],
+    "key": "C",
+    "why": "Um resultado vazio depende dos critérios da consulta.",
+    "lesson": 22
+  },
+  {
+    "n": 44,
+    "q": "Para investigar um item sem movimento, o que conferir?",
+    "options": [
+      "Somente a última cor do gráfico",
+      "Cadastro, situação, loja, saldo e histórico",
+      "Somente o nome comercial"
+    ],
+    "key": "B",
+    "why": "A análise requer contexto do produto e dos registros.",
+    "lesson": 22
+  },
+  {
+    "n": 45,
+    "q": "Uma sugestão de compra equivale a um pedido já emitido?",
+    "options": [
+      "Não; é um apoio à decisão de reposição",
+      "Sim, já confirma compra ao fornecedor",
+      "Sim, já registra entrada no estoque"
+    ],
+    "key": "A",
+    "why": "O relatório não comprova emissão de pedido nem recebimento.",
+    "lesson": 23
+  },
+  {
+    "n": 46,
+    "q": "Antes de usar a sugestão, quais informações revisar?",
+    "options": [
+      "Apenas o primeiro produto listado",
+      "Somente o preço de venda",
+      "Filtros, saldo, parâmetros do cadastro e compras em andamento"
+    ],
+    "key": "C",
+    "why": "A necessidade indicada deve ser comparada com a situação real.",
+    "lesson": 23
+  },
+  {
+    "n": 47,
+    "q": "Qual ambiente usar para o teste de implantação?",
+    "options": [
+      "Um cadastro real alterado sem controle",
+      "O ambiente apropriado e autorizado para treinamento",
+      "Qualquer caixa em atendimento sem autorização"
+    ],
+    "key": "B",
+    "why": "O teste deve seguir os acessos e configurações definidos.",
+    "lesson": 24
+  },
+  {
+    "n": 48,
+    "q": "Qual é a sequência coerente para testar o ciclo?",
+    "options": [
+      "Produto e entrada, caixa e venda, integração e conferências",
+      "Venda, alteração aleatória de saldo e exclusão do histórico",
+      "Relatório, exclusão do cliente e nova venda"
+    ],
+    "key": "A",
+    "why": "O ciclo acompanha preparação, operação e seus efeitos.",
+    "lesson": 24
+  },
+  {
+    "n": 49,
+    "q": "O vídeo 24 comprova que o ambiente do cliente foi homologado?",
+    "options": [
+      "Sim, assistir ao vídeo conclui a implantação",
+      "Sim, ter os 24 arquivos comprova a homologação",
+      "Não; orienta um teste que ainda precisa ser executado e registrado"
+    ],
+    "key": "C",
+    "why": "Um roteiro de teste não é evidência de execução no ambiente do cliente.",
+    "lesson": 24
+  },
+  {
+    "n": 50,
+    "q": "O aluno atingiu a nota mínima, mas não conseguiu conferir a venda na retaguarda. Está liberado?",
+    "options": [
+      "Sim, basta reconhecer a tela",
+      "Não; precisa demonstrar a prática e resolver a pendência",
+      "Sim, a nota teórica substitui qualquer prática"
+    ],
+    "key": "B",
+    "why": "A proposta de avaliação exige teoria e execução supervisionada.",
+    "lesson": 24
+  }
+]
